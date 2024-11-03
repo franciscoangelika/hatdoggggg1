@@ -1,6 +1,6 @@
 //Program #12: Vote Eligibility Verifier
 
-#inlcude <iostream>
+#include <iostream>
 using namespace std;
 
 int main (){ 
