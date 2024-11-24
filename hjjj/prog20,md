@@ -1,0 +1,20 @@
+// Program #20: Pass or Fail
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int mark;
+    
+    do {
+        cout<<"Enter grade: ";
+        cin>>mark; // if user enters a single character like 'a', it will not show an error
+
+        if(mark> 49 && mark <= 100)
+            cout<<"You passed.\n\n";
+        else if(mark >= 0 && mark <= 49)
+            cout<<"You failed.\n\n";
+        else    
+            cout<<"Wrong input. Please try again. \n\n";
+    }while(mark< 0 || mark > 100);
+ }
